@@ -103,7 +103,7 @@ class DoublyLinkedList {
     this.length--;
   }
 
-    printReverseList() {
+  printReverseList() {
     const array = [];
     let node = this.tail;
 
@@ -113,7 +113,6 @@ class DoublyLinkedList {
     }
     console.log(array);
   }
-}
 }
 
 const dl = new DoublyLinkedList();
