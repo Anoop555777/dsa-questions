@@ -42,8 +42,8 @@ class LinkedList {
       }
       node.next = currentNode.next;
       currentNode.next = node;
+      this.length++;
     }
-    this.length++;
   }
 
   delete(index) {
